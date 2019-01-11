@@ -1,3 +1,3 @@
 # SWC_Exercise
 
-* [Exercises](ggplot/exercises.html)
+* [Exercises](https://mchiapello.github.io/SWC_Exercise/ggplot/exercises.html)
