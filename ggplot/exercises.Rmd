@@ -1,0 +1,57 @@
+---
+title: "Software Carpentry in R - exercises"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_depth: 3
+    highlight: pygments
+    df_print: kable
+    code_folding: hide
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[back to course materials](http://swcarpentry.github.io/r-novice-gapminder/)
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+surveys <- read_csv("https://ndownloader.figshare.com/files/2292169")
+```
+
+
+# Intro
+
+----
+
+## Variables
+
+What is the value of `mass_index` after running these commands?
+
+```
+mass <- 47.5
+age  <- 100
+mass_index <- mass/age
+mass <- mass * 2.0
+```
+
+What type of vector do you get in each of the following cases (hint: use `class()`)?
+
+```
+num_char <- c(1, 2, 3, "a")
+num_logical <- c(1, 2, 3, TRUE)
+char_logical <- c("a", "b", "c", TRUE)
+tricky <- c(1, 2, 3, "4")
+```
+
+## Basic `data.frame` manipulation
+
+* How many rows and columns does `surveys` have? (hint: functions `ncol()` and `nrow()`)
+
+```{r, results=FALSE}
+nrow(surveys)
+ncol(surveys)
+`````
