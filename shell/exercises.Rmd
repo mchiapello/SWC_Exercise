@@ -1,0 +1,19 @@
+---
+title: "Software Carpentry - Shell exercises"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+    toc_depth: 3
+    highlight: pygments
+    df_print: kable
+    code_folding: hide
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[back to course materials](http://swcarpentry.github.io/shell-novice/)
+
